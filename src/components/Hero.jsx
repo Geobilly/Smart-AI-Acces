@@ -1,3 +1,5 @@
+import heroImage from '../assets/heroimage.jpeg';
+
 export default function Hero() {
   return (
     <section className="relative pt-16 pb-20 lg:pt-24 lg:pb-28 overflow-hidden bg-background-light">
@@ -48,7 +50,7 @@ export default function Hero() {
           {/* Right – Hero Image */}
           <div className="relative mt-16 h-[28rem] lg:mt-0 lg:h-auto flex items-center justify-center">
             <img
-              src="/src/assets/heroimage.jpeg"
+              src={heroImage}
               alt="Smart Access & Ticketing System Hero"
               className="rounded-2xl shadow-xl object-cover w-full h-full max-w-xl max-h-[28rem] border-4 border-primary/20"
               style={{ background: 'linear-gradient(to bottom right, #f6f9f5, #fff)' }}

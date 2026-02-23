@@ -1,39 +1,46 @@
+import mealImg from '../assets/meal.jpeg';
+import factoryImg from '../assets/factory.jpeg';
+import eventImg from '../assets/event.jpeg';
+import schoolImg from '../assets/school.jpeg';
+import visitorImg from '../assets/Visitor.jpeg';
+import analyticsImg from '../assets/analytics.jpeg';
+
 const solutions = [
   {
     icon: 'restaurant',
     title: 'Canteen & Meal Management',
     description: 'Track employee meals accurately and eliminate food loss with automated ticket generation.',
-    image: '/src/assets/meal.jpeg',
+    image: mealImg,
   },
   {
     icon: 'badge',
     title: 'Factory & Staff Access Control',
     description: 'Monitor staff entry, shift meals, and service usage with face recognition authentication.',
-    image: '/src/assets/factory.jpeg',
+    image: factoryImg,
   },
   {
     icon: 'celebration',
     title: 'Events & Conferences',
     description: 'Enable fast face-based check-ins and QR ticket validation for events and programs.',
-    image: '/src/assets/event.jpeg',
+    image: eventImg,
   },
   {
     icon: 'school',
     title: 'Schools & Institutions',
     description: 'Manage student meals, attendance, and service access with a single AI system.',
-    image: '/src/assets/school.jpeg',
+    image: schoolImg,
   },
   {
     icon: 'how_to_reg',
     title: 'Visitor & Guest Management',
     description: 'Issue secure QR passes for visitors with controlled service access and tracking.',
-    image: '/src/assets/Visitor.jpeg',
+    image: visitorImg,
   },
   {
     icon: 'qr_code',
     title: 'Asset & Equipment Tracking',
     description: 'Track and control access to valuable assets or equipment using face or QR authentication.',
-    image: '/src/assets/analytics.jpeg',
+    image: analyticsImg,
   },
 ];
 
